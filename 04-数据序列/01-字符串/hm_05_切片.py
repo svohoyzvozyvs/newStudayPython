@@ -7,3 +7,4 @@ print(str1[2])
 
 # 得到abc 这3个数据该怎么办
 
+print(str1[0:3])

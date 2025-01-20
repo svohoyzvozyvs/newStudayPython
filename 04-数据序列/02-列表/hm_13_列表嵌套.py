@@ -6,9 +6,9 @@ name_list = [['TOM', 'Lily', 'Rose'], ['张三', '李四', '王五'], ['xiaohong
 # print(name_list[0])
 print(name_list[0][1])
 
-
-
-
-
-
-
+for name in name_list:
+    if  type(name) == list:
+        for e in name:
+            print(e)
+    else:
+        print(name)
