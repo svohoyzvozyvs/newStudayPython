@@ -6,7 +6,7 @@ dict1['id'] = 110
 print(dict1)
 
 dict1['name'] = 'ROSE'
-print(dict1)
+print(dict1)    #存在时会覆盖
 
 
 
